@@ -1,1 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-color: black;
+}
+
+body {
+  background-color: var(--background-color);
+}
